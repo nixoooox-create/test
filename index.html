@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ember & Salt — Mediterranean Grill</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Karla:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="embers"></canvas>
+
+<nav id="nav">
+  <div class="logo">EMBER <span>&</span> SALT</div>
+  <div class="navlinks">
+    <a href="#about">Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#visit">Visit</a>
+    <a href="#reserve" class="reserve">Reserve</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-eyebrow">Wood-fired · Coastal · Algiers</div>
+  <h1>Where the fire<br><em>tells the story</em></h1>
+  <p>A Mediterranean grill built around charcoal, citrus, and the long table — open flame cooking, six nights a week.</p>
+  <div class="cta-row">
+    <a href="#reserve" class="btn btn-fill">Reserve a table</a>
+    <a href="#menu" class="btn btn-line">View the menu</a>
+  </div>
+  <div class="scroll-cue">
+    <span>Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="reveal">
+    <span class="eyebrow">Since 2019</span>
+    <h2 class="section-title">Cooked over <em>real fire,</em> plated without ceremony.</h2>
+    <p>Ember & Salt started as a single charcoal grill on a rooftop in Bab El Oued. Everything on the menu still passes over open flame — sea bream, lamb shoulder, charred vegetables — finished with citrus, olive oil, and whatever herbs came in that morning. No tasting menu, no pretense. Just fire, salt, and good company.</p>
+  </div>
+  <div class="about-visual reveal">
+    <svg class="flame-mark" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg">
+      <path id="flamePath" d="M50 10 C 20 40, 25 65, 40 80 C 30 75, 28 60, 32 55 C 28 75, 45 95, 50 130 C 55 95, 72 75, 68 55 C 72 60, 70 75, 60 80 C 75 65, 80 40, 50 10 Z"
+        fill="none" stroke="#C9A227" stroke-width="1.4"/>
+    </svg>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="menu-head reveal">
+    <div>
+      <span class="eyebrow">The Table</span>
+      <h2 class="section-title">A short menu, <em>done properly.</em></h2>
+    </div>
+  </div>
+  <div class="menu-grid">
+    <div class="dish reveal">
+      <div>
+        <div class="dish-name">Charcoal sea bream</div>
+        <div class="dish-desc">Whole grilled, preserved lemon, salsa verde, crisp skin.</div>
+      </div>
+      <div class="dish-price">2400 DA</div>
+    </div>
+    <div class="dish reveal">
+      <div>
+        <div class="dish-name">Slow lamb shoulder</div>
+        <div class="dish-desc">36-hour marinade, smoked over olive wood, mint yogurt.</div>
+      </div>
+      <div class="dish-price">2900 DA</div>
+    </div>
+    <div class="dish reveal">
+      <div>
+        <div class="dish-name">Blistered padrón & halloumi</div>
+        <div class="dish-desc">Flash-charred, chili honey, flaked sea salt.</div>
+      </div>
+      <div class="dish-price">1100 DA</div>
+    </div>
+    <div class="dish reveal">
+      <div>
+        <div class="dish-name">Grilled octopus</div>
+        <div class="dish-desc">Smoked paprika, potato confit, red wine reduction.</div>
+      </div>
+      <div class="dish-price">2200 DA</div>
+    </div>
+    <div class="dish reveal">
+      <div>
+        <div class="dish-name">Ember-roasted eggplant</div>
+        <div class="dish-desc">Tahini, pomegranate, torn herbs, chili oil.</div>
+      </div>
+      <div class="dish-price">1000 DA</div>
+    </div>
+    <div class="dish reveal">
+      <div>
+        <div class="dish-name">Orange & olive oil cake</div>
+        <div class="dish-desc">Warm, unglazed, whipped crème fraîche.</div>
+      </div>
+      <div class="dish-price">800 DA</div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery" style="padding-left:0; padding-right:0;">
+  <div style="padding: 0 8vw 50px;" class="reveal">
+    <span class="eyebrow">Inside the room</span>
+    <h2 class="section-title">Low light, <em>open kitchen.</em></h2>
+  </div>
+  <div class="strip reveal">
+    <div class="strip-cell"><div class="tone t1"></div><span>The grill line</span></div>
+    <div class="strip-cell"><div class="tone t2"></div><span>The long table</span></div>
+    <div class="strip-cell"><div class="tone t3"></div><span>First course</span></div>
+    <div class="strip-cell"><div class="tone t4"></div><span>The terrace</span></div>
+  </div>
+</section>
+
+<section class="info" id="visit">
+  <div class="info-col reveal">
+    <h3>Hours</h3>
+    <div class="hours-row"><span>Tue – Thu</span><span>18:00 – 23:30</span></div>
+    <div class="hours-row"><span>Fri – Sat</span><span>18:00 – 00:30</span></div>
+    <div class="hours-row"><span>Sunday</span><span>13:00 – 22:00</span></div>
+    <div class="hours-row"><span>Monday</span><span>Closed</span></div>
+  </div>
+  <div class="info-col reveal">
+    <h3>Find us</h3>
+    <p>14 Rue des Frères Bouadou<br>Bab El Oued, Algiers</p>
+    <p style="margin-top:14px;">+213 21 00 00 00</p>
+  </div>
+  <div class="info-col reveal">
+    <h3>Good to know</h3>
+    <p>Wood fire runs low-smoke, terrace seating.<br>Walk-ins welcome at the counter after 21:00.</p>
+  </div>
+</section>
+
+<section class="reserve-band" id="reserve">
+  <h2 class="reveal">Pull up a chair <em>by the fire.</em></h2>
+  <a href="#" class="btn btn-fill reveal">Reserve a table</a>
+</section>
+
+<footer>
+  <span>© 2026 Ember & Salt</span>
+  <span>Algiers, Algeria</span>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
